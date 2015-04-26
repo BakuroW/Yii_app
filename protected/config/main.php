@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Мое приложение',
+	'name'=>'Тестовый сайт Yii',
     'language'=>'ru',
 
 	// preloading 'log' component

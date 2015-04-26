@@ -6,7 +6,7 @@ class BookController extends Controller
 
 
 /*        echo 'ID book: ';
-        $a = Book::model()->findByPk(6);//Вывод по айди
+        $a = Book::model()->findByPk(6);
         echo $a->title;*/
 
 
@@ -14,7 +14,7 @@ class BookController extends Controller
 
 /*        echo 'Вывод через array: ';
         $array = array(2,5);
-        $a = Book::model()->findAllByPk($array);//Вывод по айди
+        $a = Book::model()->findAllByPk($array);
         foreach($a as $one){
 
             echo $one->title;
@@ -24,49 +24,48 @@ class BookController extends Controller
 
 /*      echo 'find: ';
         $num = 4;
-        $a = Book::model()->find('id<:num',array(':num' => $num));//Выводит первый попавшийся удовлетворяющий условию
+        $a = Book::model()->find('id<:num',array(':num' => $num));
         echo $a->title;
         */
 
         /*echo 'find: ';
         $num = 6;
-        $a = Book::model()->findAll('id<:num',array(':num' => $num));//Выводит все данные удовлетворяющий условию
+        $a = Book::model()->findAll('id<:num',array(':num' => $num));
         foreach($a as $one){
             echo $one->title;
             echo '<hr />';
         }*/
 
 /*
-        $a = Book::model()->findByAttributes(array('id' => array (2,3,5), 'title' => 'Война и мир'));////Выводит первый попавшийся удовлетворяющий заданиам атрибутам
+        $a = Book::model()->findByAttributes(array('id' => array (2,3,5), 'title' => 'Война и мир'));
         echo $a->title;*/
 
 
-/*        $a = Book::model()->findAllByAttributes(array('id' => array (2,3,5), 'title' => array('Война и мир','Анна Каренина')));//Выводит все удовлетворяющий заданиам атрибутам
+/*        $a = Book::model()->findAllByAttributes(array('id' => array (2,3,5), 'title' => array('Война и мир','Анна Каренина')));
         foreach($a as $one){
             echo $one->title;
             echo '<hr />';
         }*/
 
 /*        $num = 5;
-        $a = Book::model()->findAllBySql('SELECT title FROM {{book}} WHERE id = :num', array(':num' => $num));////Выводит data согласно запросу
+        $a = Book::model()->findAllBySql('SELECT title FROM {{book}} WHERE id = :num', array(':num' => $num));
         foreach($a as $one){
             echo $one->title;
             echo '<hr />';
         }*/
 
 /*        $num = 5;
-        $a = Book::model()->count('id = :num', array(':num' => $num));//подсчет записей
+        $a = Book::model()->count('id = :num', array(':num' => $num));
         echo $a;*/
 
 
 /*        $num = 5;
-        $a = Book::model()->countBySql('SELECT count(title) FROM {{book}} WHERE id <= :num', array(':num' => $num));//подсчет записей согласно SQL запроса
+        $a = Book::model()->countBySql('SELECT count(title) FROM {{book}} WHERE id <= :num', array(':num' => $num));
         echo $a;*/
 
 
 /*        $num = 1;
-        $a = Book::model()->exists('id >= :num', array(':num' => $num));//нужно записать только ключевое выражение что идет после where...
-        //вывод тру(1) или фолс(0)
+        $a = Book::model()->exists('id >= :num', array(':num' => $num));
         if($a){
             echo 'Exist';
         }else{
@@ -141,9 +140,9 @@ class BookController extends Controller
         $criteria->condition = 'id <= :id';
         $criteria->params = array(':id' => 10);
         $criteria->limit = '10';
-        $criteria->order = 'id DESC';//по убыванию(ASC - по возростанию)
+        $criteria->order = 'id DESC';
 
-        $a = Book::model()->findAll($criteria);//Вывод по айди
+        $a = Book::model()->findAll($criteria);
 
         foreach($a as $one){
             echo $one->title;

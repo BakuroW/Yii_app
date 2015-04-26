@@ -4,7 +4,7 @@
 class MyController extends Controller {
 
 
-    public $defaultAction = 'one'; //экшин по умолчанию
+    public $defaultAction = 'one';
 
     public  function actionOne() {
 
