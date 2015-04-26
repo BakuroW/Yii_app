@@ -1,0 +1,666 @@
+2015/03/03 16:20:00 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.host".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('host', 'localhost')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/default/index
+---
+2015/03/03 16:20:20 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.host".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('host', 'localhost')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/controller/index
+---
+2015/03/03 16:22:04 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/controller/index
+---
+2015/03/03 16:22:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/controller/index
+---
+2015/03/03 16:22:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/module/index
+---
+2015/03/03 16:30:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/model/index
+---
+2015/03/03 16:31:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/default/index
+---
+2015/03/03 16:59:12 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/default/index
+---
+2015/03/03 16:59:13 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/default/index
+---
+2015/03/03 16:59:37 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/default/index
+---
+2015/03/03 18:22:57 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii/default/index
+---
+2015/03/03 18:23:02 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii
+---
+2015/03/03 18:25:29 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.port".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\YiiBase.php(220): CComponent->__set('port', '3306')
+#1 C:\Server\domains\yii_lern\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\Server\domains\yii_lern\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\Server\domains\yii_lern\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\Server\domains\yii_lern\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yiilern/index.php/gii
+---
+2015/03/04 18:09:08 [error] [php] Missing argument 1 for CActiveRecord::findBySql(), called in C:\Server\domains\yii_lern\protected\controllers\BookController.php on line 46 and defined (C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php:1550)
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Server\domains\yii_lern\framework\web\CController.php(286): BookController->runAction()
+#2 C:\Server\domains\yii_lern\framework\web\CController.php(265): BookController->runActionWithFilters()
+#3 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): BookController->run()
+#4 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (46)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 18:09:45 [error] [php] Missing argument 1 for CActiveRecord::findBySql(), called in C:\Server\domains\yii_lern\protected\controllers\BookController.php on line 48 and defined (C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php:1550)
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Server\domains\yii_lern\framework\web\CController.php(286): BookController->runAction()
+#2 C:\Server\domains\yii_lern\framework\web\CController.php(265): BookController->runActionWithFilters()
+#3 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): BookController->run()
+#4 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (48)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 18:11:44 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 5' at line 1. Выполнявшийся SQL-запрос: SELECT title ((book)) WHERE id = :num.
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (47)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 18:11:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 5' at line 1. The SQL statement executed was: SELECT title ((book)) WHERE id = :num' in C:\Server\domains\yii_lern\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 C:\Server\domains\yii_lern\protected\controllers\BookController.php(47): CActiveRecord->findBySql('SELECT title ((...', Array)
+#3 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#9 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/03/04 18:13:29 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 5' at line 1. Выполнявшийся SQL-запрос: SELECT title o_book WHERE id = :num.
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (47)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 18:13:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 5' at line 1. The SQL statement executed was: SELECT title o_book WHERE id = :num' in C:\Server\domains\yii_lern\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 C:\Server\domains\yii_lern\protected\controllers\BookController.php(47): CActiveRecord->findBySql('SELECT title {{...', Array)
+#3 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#9 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/03/04 18:15:14 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 5' at line 1. Выполнявшийся SQL-запрос: SELECT title o_book WHERE id = :num.
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (47)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 18:15:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 5' at line 1. The SQL statement executed was: SELECT title o_book WHERE id = :num' in C:\Server\domains\yii_lern\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 C:\Server\domains\yii_lern\protected\controllers\BookController.php(47): CActiveRecord->findAllBySql('SELECT title {{...', Array)
+#3 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#9 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/03/04 18:15:34 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 3' at line 1. Выполнявшийся SQL-запрос: SELECT title o_book WHERE id = :num.
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (47)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 18:15:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 3' at line 1. The SQL statement executed was: SELECT title o_book WHERE id = :num' in C:\Server\domains\yii_lern\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 C:\Server\domains\yii_lern\protected\controllers\BookController.php(47): CActiveRecord->findAllBySql('SELECT title {{...', Array)
+#3 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#9 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/03/04 20:13:30 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchColumn(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{title} FROM o_book WHERE id = 5' at line 1. Выполнявшийся SQL-запрос: SELECT count{title} FROM o_book WHERE id = :num.
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (59)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 20:13:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{title} FROM o_book WHERE id = 5' at line 1. The SQL statement executed was: SELECT count{title} FROM o_book WHERE id = :num' in C:\Server\domains\yii_lern\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(1654): CDbCommand->queryScalar()
+#2 C:\Server\domains\yii_lern\protected\controllers\BookController.php(59): CActiveRecord->countBySql('SELECT count{ti...', Array)
+#3 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#9 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/03/04 20:13:57 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchColumn(): SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION one.count does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual. Выполнявшийся SQL-запрос: SELECT count (title) FROM o_book WHERE id = :num.
+in C:\Server\domains\yii_lern\protected\controllers\BookController.php (59)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/04 20:13:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION one.count does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual. The SQL statement executed was: SELECT count (title) FROM o_book WHERE id = :num' in C:\Server\domains\yii_lern\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(1654): CDbCommand->queryScalar()
+#2 C:\Server\domains\yii_lern\protected\controllers\BookController.php(59): CActiveRecord->countBySql('SELECT count (t...', Array)
+#3 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#9 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=book
+---
+2015/03/06 19:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "quest".' in C:\Server\domains\yii_lern\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\web\CController.php(270): CController->missingAction('quest')
+#1 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('quest')
+#2 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('page/quest')
+#3 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=page/quest
+---
+2015/03/06 20:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "crate".' in C:\Server\domains\yii_lern\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\web\CController.php(270): CController->missingAction('crate')
+#1 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('crate')
+#2 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('page/crate')
+#3 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=page/crate
+---
+2015/03/06 20:26:34 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CCompareValidator.ComparAttribute".' in C:\Server\domains\yii_lern\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\validators\CValidator.php(177): CComponent->__set('ComparAttribute', 'text')
+#1 C:\Server\domains\yii_lern\framework\base\CModel.php(287): CValidator::createValidator('compare', Object(Page), 'title', Array)
+#2 C:\Server\domains\yii_lern\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\Server\domains\yii_lern\framework\base\CModel.php(304): CModel->getValidators('title')
+#4 C:\Server\domains\yii_lern\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#5 C:\Server\domains\yii_lern\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(Page), 'title', Array)
+#6 C:\Server\domains\yii_lern\protected\views\page\_form.php(23): CActiveForm->labelEx(Object(Page), 'title')
+#7 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require('C:\\Server\\domai...')
+#8 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Server\\domai...', Array, true)
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(869): CBaseController->renderFile('C:\\Server\\domai...', Array, true)
+#10 C:\Server\domains\yii_lern\protected\views\page\create.php(18): CController->renderPartial('_form', Array)
+#11 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require('C:\\Server\\domai...')
+#12 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Server\\domai...', Array, true)
+#13 C:\Server\domains\yii_lern\framework\web\CController.php(869): CBaseController->renderFile('C:\\Server\\domai...', Array, true)
+#14 C:\Server\domains\yii_lern\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#15 C:\Server\domains\yii_lern\protected\controllers\PageController.php(93): CController->render('create', Array)
+#16 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#17 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\Server\domains\yii_lern\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\Server\domains\yii_lern\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\Server\domains\yii_lern\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\Server\domains\yii_lern\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\Server\domains\yii_lern\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('create')
+#26 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('page/create')
+#27 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#28 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php?r=page/create
+---
+2015/03/06 20:37:48 [error] [php] include(text.php): failed to open stream: No such file or directory (C:\Server\domains\yii_lern\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\Server\domains\yii_lern\framework\YiiBase.php(303): class_exists()
+#2 C:\Server\domains\yii_lern\framework\validators\CValidator.php(174): import()
+#3 C:\Server\domains\yii_lern\framework\base\CModel.php(287): createValidator()
+#4 C:\Server\domains\yii_lern\framework\base\CModel.php(260): Page->createValidators()
+#5 C:\Server\domains\yii_lern\framework\base\CModel.php(547): Page->getValidators()
+#6 C:\Server\domains\yii_lern\framework\base\CModel.php(468): Page->getSafeAttributeNames()
+#7 C:\Server\domains\yii_lern\framework\base\CComponent.php(152): Page->setAttributes()
+#8 C:\Server\domains\yii_lern\framework\db\ar\CActiveRecord.php(161): Page->__set()
+#9 C:\Server\domains\yii_lern\protected\controllers\PageController.php(86): Page->__set()
+#10 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#11 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#13 C:\Server\domains\yii_lern\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\Server\domains\yii_lern\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\Server\domains\yii_lern\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#16 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\Server\domains\yii_lern\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\Server\domains\yii_lern\framework\web\CController.php(265): PageController->runActionWithFilters()
+#19 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): PageController->run()
+#20 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page/create
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:37:56 [error] [php] include(text.php): failed to open stream: No such file or directory (C:\Server\domains\yii_lern\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\Server\domains\yii_lern\framework\YiiBase.php(303): class_exists()
+#2 C:\Server\domains\yii_lern\framework\validators\CValidator.php(174): import()
+#3 C:\Server\domains\yii_lern\framework\base\CModel.php(287): createValidator()
+#4 C:\Server\domains\yii_lern\framework\base\CModel.php(260): Page->createValidators()
+#5 C:\Server\domains\yii_lern\framework\base\CModel.php(304): Page->getValidators()
+#6 C:\Server\domains\yii_lern\framework\web\helpers\CHtml.php(1513): Page->isAttributeRequired()
+#7 C:\Server\domains\yii_lern\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\Server\domains\yii_lern\protected\views\page\_form.php(23): CActiveForm->labelEx()
+#9 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require()
+#10 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): PageController->renderInternal()
+#11 C:\Server\domains\yii_lern\framework\web\CController.php(869): PageController->renderFile()
+#12 C:\Server\domains\yii_lern\protected\views\page\create.php(18): PageController->renderPartial()
+#13 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require()
+#14 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): PageController->renderInternal()
+#15 C:\Server\domains\yii_lern\framework\web\CController.php(869): PageController->renderFile()
+#16 C:\Server\domains\yii_lern\framework\web\CController.php(782): PageController->renderPartial()
+#17 C:\Server\domains\yii_lern\protected\controllers\PageController.php(93): PageController->render()
+#18 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#19 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#21 C:\Server\domains\yii_lern\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\Server\domains\yii_lern\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\Server\domains\yii_lern\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#24 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\Server\domains\yii_lern\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\Server\domains\yii_lern\framework\web\CController.php(265): PageController->runActionWithFilters()
+#27 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): PageController->run()
+#28 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#30 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page/create
+in C:\Server\domains\yii_lern\protected\views\page\_form.php (23)
+in C:\Server\domains\yii_lern\protected\views\page\create.php (18)
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (93)
+2015/03/06 20:38:52 [error] [php] include(text.php): failed to open stream: No such file or directory (C:\Server\domains\yii_lern\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\Server\domains\yii_lern\framework\YiiBase.php(303): class_exists()
+#2 C:\Server\domains\yii_lern\framework\validators\CValidator.php(174): import()
+#3 C:\Server\domains\yii_lern\framework\base\CModel.php(287): createValidator()
+#4 C:\Server\domains\yii_lern\framework\base\CModel.php(260): Page->createValidators()
+#5 C:\Server\domains\yii_lern\framework\base\CModel.php(304): Page->getValidators()
+#6 C:\Server\domains\yii_lern\framework\web\helpers\CHtml.php(1513): Page->isAttributeRequired()
+#7 C:\Server\domains\yii_lern\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\Server\domains\yii_lern\protected\views\page\_form.php(23): CActiveForm->labelEx()
+#9 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require()
+#10 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): PageController->renderInternal()
+#11 C:\Server\domains\yii_lern\framework\web\CController.php(869): PageController->renderFile()
+#12 C:\Server\domains\yii_lern\protected\views\page\create.php(18): PageController->renderPartial()
+#13 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require()
+#14 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): PageController->renderInternal()
+#15 C:\Server\domains\yii_lern\framework\web\CController.php(869): PageController->renderFile()
+#16 C:\Server\domains\yii_lern\framework\web\CController.php(782): PageController->renderPartial()
+#17 C:\Server\domains\yii_lern\protected\controllers\PageController.php(93): PageController->render()
+#18 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#19 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#21 C:\Server\domains\yii_lern\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\Server\domains\yii_lern\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\Server\domains\yii_lern\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#24 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\Server\domains\yii_lern\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\Server\domains\yii_lern\framework\web\CController.php(265): PageController->runActionWithFilters()
+#27 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): PageController->run()
+#28 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#30 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page/create
+in C:\Server\domains\yii_lern\protected\views\page\_form.php (23)
+in C:\Server\domains\yii_lern\protected\views\page\create.php (18)
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (93)
+2015/03/06 20:39:06 [error] [php] include(text.php): failed to open stream: No such file or directory (C:\Server\domains\yii_lern\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\Server\domains\yii_lern\framework\YiiBase.php(303): class_exists()
+#2 C:\Server\domains\yii_lern\framework\validators\CValidator.php(174): import()
+#3 C:\Server\domains\yii_lern\framework\base\CModel.php(287): createValidator()
+#4 C:\Server\domains\yii_lern\framework\base\CModel.php(260): Page->createValidators()
+#5 C:\Server\domains\yii_lern\framework\base\CModel.php(304): Page->getValidators()
+#6 C:\Server\domains\yii_lern\framework\web\helpers\CHtml.php(1513): Page->isAttributeRequired()
+#7 C:\Server\domains\yii_lern\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#8 C:\Server\domains\yii_lern\protected\views\page\_form.php(23): CActiveForm->labelEx()
+#9 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require()
+#10 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): PageController->renderInternal()
+#11 C:\Server\domains\yii_lern\framework\web\CController.php(869): PageController->renderFile()
+#12 C:\Server\domains\yii_lern\protected\views\page\create.php(18): PageController->renderPartial()
+#13 C:\Server\domains\yii_lern\framework\web\CBaseController.php(126): require()
+#14 C:\Server\domains\yii_lern\framework\web\CBaseController.php(95): PageController->renderInternal()
+#15 C:\Server\domains\yii_lern\framework\web\CController.php(869): PageController->renderFile()
+#16 C:\Server\domains\yii_lern\framework\web\CController.php(782): PageController->renderPartial()
+#17 C:\Server\domains\yii_lern\protected\controllers\PageController.php(93): PageController->render()
+#18 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#19 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#21 C:\Server\domains\yii_lern\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\Server\domains\yii_lern\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\Server\domains\yii_lern\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#24 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\Server\domains\yii_lern\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\Server\domains\yii_lern\framework\web\CController.php(265): PageController->runActionWithFilters()
+#27 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): PageController->run()
+#28 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#30 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page/create
+in C:\Server\domains\yii_lern\protected\views\page\_form.php (23)
+in C:\Server\domains\yii_lern\protected\views\page\create.php (18)
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (93)
+2015/03/06 20:49:56 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:50:06 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:50:17 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:50:25 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:50:47 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:50:54 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:50:58 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:51:12 [warning] [application] Не удалось присвоить небезопасный атрибут "title" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:52:33 [warning] [application] Не удалось присвоить небезопасный атрибут "text" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:53:12 [warning] [application] Не удалось присвоить небезопасный атрибут "text" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 20:53:54 [warning] [application] Не удалось присвоить небезопасный атрибут "text" класса "Page".
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (86)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 23:00:33 [error] [php] Cannot modify header information - headers already sent by (output started at C:\Server\domains\yii_lern\protected\controllers\PageController.php:81) (C:\Server\domains\yii_lern\framework\web\CHttpRequest.php:860)
+Stack trace:
+#0 C:\Server\domains\yii_lern\protected\controllers\PageController.php(90): PageController->redirect()
+#1 C:\Server\domains\yii_lern\framework\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#2 C:\Server\domains\yii_lern\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#4 C:\Server\domains\yii_lern\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\Server\domains\yii_lern\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\Server\domains\yii_lern\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#7 C:\Server\domains\yii_lern\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\Server\domains\yii_lern\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\Server\domains\yii_lern\framework\web\CController.php(265): PageController->runActionWithFilters()
+#10 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): PageController->run()
+#11 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\Server\domains\yii_lern\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=page/create
+in C:\Server\domains\yii_lern\protected\controllers\PageController.php (90)
+in C:\Server\domains\yii_lern\index.php (13)
+2015/03/06 23:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in C:\Server\domains\yii_lern\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\domains\yii_lern\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\Server\domains\yii_lern\framework\web\CWebApplication.php(141): CWebApplication->runController('my')
+#3 C:\Server\domains\yii_lern\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\Server\domains\yii_lern\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=my
+---
