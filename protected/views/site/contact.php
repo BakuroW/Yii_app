@@ -35,7 +35,7 @@ $this->breadcrumbs=array(
             ),
         )); ?>
 
-            <p class="note">Поля с <span class="required">*</span>обязательны.</p>
+            <p class="note">Поля с <span class="required">*</span> обязательны.</p>
 
             <?php echo $form->errorSummary($model); ?>
 
